@@ -3,6 +3,15 @@
     mostra onde encontrar DOC com todo o conteúdo explicação e exemplo.
 
     https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
+
+    OBS: Links de base para estudo e prática.
+
+    https://www.freecodecamp.org/portuguese/news/exemplos-de-transicao-em-css-como-usar-a-animacao-ao-passar-o-mouse-alterar-a-opacidade-e-mais/
+
+    https://developer.mozilla.org/pt-BR/docs/Web/CSS/text-align
+
+    https://developer.mozilla.org/pt-BR/docs/Web/CSS/transition
+
 -->
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -17,10 +26,22 @@
             background: red;
         }
         p{
-            background: blue;
+            font-size: 18px;
+            background: rgba(29, 29, 225, 0.856);
         }
         #cabecalho-dois{
             background:purple;
+        }
+        h1:hover {
+            color: #ccc;
+            text-align: center;
+            transition-duration: 1s;
+        }
+        p:hover{
+            text-transform: uppercase;
+            color: #ccc;
+            text-align: justify;
+            transition-duration: 1.2s;
         }
 
     </style>
@@ -34,6 +55,8 @@ CLASS:
  Ja as classes, também são identificadores, podendo repeti-las quantas vezes
   forem possíveis e/ou necessárias. Podendo ter mais de uma classe na mesma
   tag se necessário.
+  Documeto modificado para prática e estudos de Fornt-End, usando ação de moude "hover"
+  com transition, transform.
 
 -->
 <body>
