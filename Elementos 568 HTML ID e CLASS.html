@@ -1,0 +1,54 @@
+<!-- AULA - Semântica na estrutura do html 5
+    Foi abordado o conteúdo de Elementos html em aula, o link abaixo 
+    mostra onde encontrar DOC com todo o conteúdo explicação e exemplo.
+
+    https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1" />
+    <title>Aula de class e id</title>
+    <style>
+        h1{
+            background: red;
+        }
+        p{
+            background: blue;
+        }
+        #cabecalho-dois{
+            background:purple;
+        }
+
+    </style>
+</head>
+
+<!--
+ID:
+O id são identificadores únicos, onde não se pode repeti-los sendo iguais
+ id=a e (id=a) sedo aceito id=b, id=c
+CLASS:
+ Ja as classes, também são identificadores, podendo repeti-las quantas vezes
+  forem possíveis e/ou necessárias. Podendo ter mais de uma classe na mesma
+  tag se necessário.
+
+-->
+<body>
+    <h1 id="cabecalho-um" class="fundo-vermelho borda-esquerda">
+        Titulo 01
+    </h1>
+    <h1 id="cabecalho-dois" class="fundo-vermelho">
+        Titulo 02
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, 
+        velit aperiam non hic cumque deserunt iusto quam, earum pariatur, 
+        recusandae obcaecati adipisci dolorem magnam quidem. Tempora labore
+         eligendi fugiat blanditiis.</p>
+
+</body>
+
+</html>
