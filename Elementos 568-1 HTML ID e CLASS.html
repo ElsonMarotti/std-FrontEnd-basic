@@ -1,0 +1,93 @@
+<!-- Arquivo que substitui -> ElementosHTML ID e CLASS.html
+    Para estudo e aplicação de CSS.
+    
+    AULA - Semântica na estrutura do html 5
+    Foi abordado o conteúdo de Elementos html em aula, o link abaixo 
+    mostra onde encontrar DOC com todo o conteúdo explicação e exemplo.
+
+    https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
+
+    OBS: Links de base para estudo e prática.
+
+    https://www.freecodecamp.org/portuguese/news/exemplos-de-transicao-em-css-como-usar-a-animacao-ao-passar-o-mouse-alterar-a-opacidade-e-mais/
+
+    https://developer.mozilla.org/pt-BR/docs/Web/CSS/text-align
+
+    https://developer.mozilla.org/pt-BR/docs/Web/CSS/transition
+
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1" />
+    <title>Aula de class e id</title>
+    <style>
+        h1{
+            background: red;
+        }
+        body p{
+            padding: 5px;
+            font-size: 18px;
+            background: rgba(29, 29, 225, 0.856);
+        }
+        .tema{
+            padding: 50px;
+            font-size: 18px;            
+            background: none;
+            text-align: center;
+        }
+        .tema:hover{
+            color: #000;
+            text-align: center;
+        }
+        #cabecalho-dois{
+            background:purple;
+        }
+        h1:hover {
+            color: #ccc;
+            text-align: center;
+            transition-duration: 1s;
+        }
+        p:hover{
+            text-transform: uppercase;
+            color: #ccc;
+            text-align: justify;
+            transition-duration: 1.2s;
+        }
+
+    </style>
+</head>
+
+<!--
+ID:
+O id são identificadores únicos, onde não se pode repeti-los sendo iguais
+ id=a e (id=a) sedo aceito id=b, id=c
+CLASS:
+ Ja as classes, também são identificadores, podendo repeti-las quantas vezes
+  forem possíveis e/ou necessárias. Podendo ter mais de uma classe na mesma
+  tag se necessário.
+  Documeto modificado para prática e estudos de Fornt-End, usando ação de moude "hover"
+  com transition, transform.
+
+-->
+<body>
+    <p class="tema">  Documeto modificado para prática e estudos <br>de Fornt-End, usando ação de moude "hover"
+        com transition, transform.</p>
+    <h1 id="cabecalho-um" class="fundo-vermelho borda-esquerda">
+        Titulo 01
+    </h1>
+    <h1 id="cabecalho-dois" class="fundo-vermelho">
+        Titulo 02
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, 
+        velit aperiam non hic cumque deserunt iusto quam, earum pariatur, 
+        recusandae obcaecati adipisci dolorem magnam quidem. Tempora labore
+         eligendi fugiat blanditiis.</p>
+
+</body>
+
+</html>
